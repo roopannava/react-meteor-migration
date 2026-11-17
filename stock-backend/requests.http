@@ -1,0 +1,7 @@
+### GetTotalStockOnNyse — consumed by the React + Redux app
+GET http://localhost:8080/api/stocks/nyse
+Accept: application/json
+
+### GetTenTopWinnersOnNyse — consumed by the Meteor app
+GET http://localhost:8080/api/stocks/top-winners
+Accept: application/json

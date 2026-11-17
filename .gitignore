@@ -1,0 +1,16 @@
+# Root ignores for the react-meteor-migration monorepo.
+# Each sub-app (stock-backend, react-redux-app, meteor-app) has its own .gitignore too.
+
+# IDE / editor
+.idea/
+.vscode/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Env files (secrets) — never commit real ones; .env.example templates are fine
+.env
+.env.local
+**/.env
+**/.env.local
